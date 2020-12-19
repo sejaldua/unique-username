@@ -1,0 +1,27 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background-color: rgb(188, 188, 244);
+}
+
+.box {
+  width: 100%;
+  text-align: center;
+  justify-content: center;
+  background-color: rgb(188, 188, 244);
+  padding: 10em 0em;
+}
+
+input[type="text"] {
+  margin: 0% 25%;
+  width: 50%;
+}
+
+.bad {
+  border:2px solid #FF0000;
+}
+
+.good {
+  border:2px solid green;
+}
