@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
 
 class Errors extends Component {
-  constructor(props) {
-    super(props);
-  }
+  // constructor(props) {
+  //   super(props);
+  // }
 
   checkLength = () => {
-    if (this.props.username.length != 0 && this.props.username.length < 4) {
+    if (this.props.username.length !== 0 && this.props.username.length < 4) {
       return "Username must be at least 4 characters long";
     }
   }

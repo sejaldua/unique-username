@@ -40,7 +40,7 @@ class App extends Component {
     if (this.state.username.length >= 4 && !this.state.taken && !this.state.serverError) {
       return "good";
     }
-    else if (this.state.username.length == 0) {
+    else if (this.state.username.length === 0) {
       return "";
     }
     else {
