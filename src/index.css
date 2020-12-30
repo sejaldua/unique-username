@@ -15,6 +15,7 @@ body {
 
 input[type="text"] {
   margin: 0% 25%;
+  height: 2em;
   width: 50%;
 }
 
